@@ -12,5 +12,31 @@ for (var i = 0; i <= 16; ++i) {
   console.log('%c' + cubes[i], styles)
 }
 
+for (var i = 1; i <= 10; i++) {
+  if (i == 1) {
+    console.log('Medalla de Oro - Vos Sos el Ganador')
+  } else if (i == 2) {
+    console.log('Medalla de Plata - Vos hiciste bien') 
+  } else if (i == 3) {
+    console.log('Medalla de Bronce - Seguí pa llante')
+  } else {
+    //este bloque se ejecutará si no coincide ninguna condición
+    console.log(i)
+  }
+} 
 
+console.log('Separación')
 
+for (var k = 1; k <= 10; ++k)
+switch (k) {
+  case 1:
+    console.log('Medalla de Oro - Vos Sos el Ganador')
+    break;
+  case 2:
+    console.log('Medalla de Plata - Vos hiciste bien')
+    break;
+  case 3:
+    console.log('Medalla de Bronce - Seguí pa llante')
+  default:
+    console.log(k)
+}
