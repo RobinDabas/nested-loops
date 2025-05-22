@@ -40,3 +40,24 @@ switch (k) {
   default:
     console.log(k)
 }
+
+
+console.log('Qabayil Arabia Min Libya')
+
+for (var t = 1; t <= 10; ++t) {
+  switch (t) {
+    case 1:
+      console.log('Qabila: Jabbour x Qahtan 505 - Mintiqa: Barqa - Madina: Ajdabiya, LY')
+    break;
+    case 2:
+      console.log('Qabila: Magarha x Banu Sulaym 515 - Mintiqa: Fezzan - Madina: Sabha, LY')
+    break;
+    case 3:
+      console.log('Qabila: Gadhadfa x Anizza 501 - Minitiqa: Barqa - Madina: Sirte, LY')
+    break;
+    case 4:
+      console.log('Qabila: Rajban x Al-Duwasir 506 - Mintiqa: Tripolitania - Madina: Rajban, LY')
+    default:
+      console.log(t)
+  } 
+}
